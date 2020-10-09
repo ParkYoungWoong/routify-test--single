@@ -5,7 +5,8 @@
     "dev": "routify -c my-server",
     "my-server": "rollup -c -w",
     "build": "routify -b && rollup -c",
-    "start": "sirv public --single"
+    "start": "sirv public --single",
+    "push": "sh ./scripts/buildAndPush.sh"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",

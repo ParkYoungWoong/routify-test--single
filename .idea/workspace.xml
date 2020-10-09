@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b04dcc1-d028-4465-a065-6b25c90f5168" name="Default Changelist" comment="">
+    <list default="true" id="5b04dcc1-d028-4465-a065-6b25c90f5168" name="Default Changelist" comment="single build is false">
+      <change afterPath="$PROJECT_DIR$/scripts/buildAndPush.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/bundle/main-bb0d3ee6.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/bundle/main-bb0d3ee6.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/push-process.sh" beforeDir="false" afterPath="$PROJECT_DIR$/push-process.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/push-process.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +31,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
       <recent name="$PROJECT_DIR$/src/pages/hello" />
     </key>
   </component>
@@ -40,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602224235964</updated>
-      <workItem from="1602224236984" duration="5472000" />
+      <workItem from="1602224236984" duration="6646000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1602226239402</created>
@@ -90,11 +93,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="single build is false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="135" key="CommitChangelistDialog2" timestamp="1602228267233">
+    <state x="410" y="135" key="CommitChangelistDialog2" timestamp="1602229987179">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="410" y="135" key="CommitChangelistDialog2/-1920.-174.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602226239316" />
-    <state x="410" y="135" key="CommitChangelistDialog2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602228267233" />
+    <state x="410" y="135" key="CommitChangelistDialog2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602229987179" />
     <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1602228268389">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
