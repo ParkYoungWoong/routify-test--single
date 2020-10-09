@@ -1,0 +1,2 @@
+import{S as s,i as t,s as e,e as o,g as a,b as n,h as r,j as i,n as l,f as p,k as u,r as c}from"./main-bb0d3ee6.js";function f(s){let t,e,u;return{c(){t=o("h2"),e=a("hello "),u=a(s[0])},m(s,o){n(s,t,o),r(t,e),r(t,u)},p(s,[t]){1&t&&i(u,s[0])},i:l,o:l,d(s){s&&p(t)}}}function m(s,t,e){let o;u(s,c,(s=>e(1,o=s)));let{post:a}=t;return setTimeout((()=>{o()}),5e3),console.log(a),s.$$set=s=>{"post"in s&&e(0,a=s.post)},[a]}export default class extends s{constructor(s){super(),t(this,s,m,f,e,{post:0})}}
+//# sourceMappingURL=[post]-3b95e02a.js.map

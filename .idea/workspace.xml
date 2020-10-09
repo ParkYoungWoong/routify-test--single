@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b04dcc1-d028-4465-a065-6b25c90f5168" name="Default Changelist" comment="" />
+    <list default="true" id="5b04dcc1-d028-4465-a065-6b25c90f5168" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/push-process.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602224235964</updated>
-      <workItem from="1602224236984" duration="4012000" />
+      <workItem from="1602224236984" duration="4772000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1602226239402</created>
@@ -66,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602228089638</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="single build is false">
+      <created>1602228267320</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602228267320</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,18 +85,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project" />
     <MESSAGE value="Ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready" />
+    <MESSAGE value="single build is false" />
+    <option name="LAST_COMMIT_MESSAGE" value="single build is false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="410" y="135" key="CommitChangelistDialog2" timestamp="1602228089505">
+    <state x="410" y="135" key="CommitChangelistDialog2" timestamp="1602228267233">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="410" y="135" key="CommitChangelistDialog2/-1920.-174.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602226239316" />
-    <state x="410" y="135" key="CommitChangelistDialog2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602228089505" />
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1602228091029">
+    <state x="410" y="135" key="CommitChangelistDialog2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602228267233" />
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1602228268389">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="496" y="287" key="Vcs.Push.Dialog.v2/-1920.-174.1920.1057/0.0.1792.1120@0.0.1792.1120" timestamp="1602226244186" />
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602228091029" />
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2/-1920.-197.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1602228268389" />
   </component>
 </project>

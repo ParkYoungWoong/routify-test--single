@@ -1,0 +1,1 @@
+{"version":3,"file":"index-9bbd2cae.js","sources":["../../src/pages/index.svelte"],"sourcesContent":["<script>\n  import { url } from '@sveltech/routify'\n</script>\n\n<h1>Hello world!</h1>\n<a href={$url('/blog/hello-heropy')}>move to HEROPY page</a>\n"],"names":["ctx"],"mappings":"sPAKSA,KAAK,uFAALA,KAAK"}
