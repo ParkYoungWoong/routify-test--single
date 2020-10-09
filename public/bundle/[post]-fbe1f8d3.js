@@ -1,2 +1,0 @@
-import{S as t,i as s,s as o,e,b as n,n as a,f as r}from"./main-36928238.js";function p(t){let s;return{c(){s=e("h2"),s.textContent="hello post"},m(t,o){n(t,s,o)},p:a,i:a,o:a,d(t){t&&r(s)}}}function i(t,s,o){let{post:e}=s;return console.log(e),t.$$set=t=>{"post"in t&&o(0,e=t.post)},[e]}export default class extends t{constructor(t){super(),s(this,t,i,p,o,{post:0})}}
-//# sourceMappingURL=[post]-fbe1f8d3.js.map

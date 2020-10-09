@@ -3,6 +3,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
+import cleaner from 'rollup-plugin-cleaner';
 import { routify } from '@sveltech/routify';
 
 const production = !process.env.ROLLUP_WATCH;
@@ -41,6 +42,12 @@ export default {
 			singleBuild: production,
 			dynamicImports: true
 		}),
+		cleaner({
+			targets: [
+				'public/bundle/'
+			]
+		}),
+
 		svelte({
 			// enable run-time checks when not in production
 			dev: !production,

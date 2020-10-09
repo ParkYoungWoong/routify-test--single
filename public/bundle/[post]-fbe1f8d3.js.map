@@ -1,1 +1,0 @@
-{"version":3,"file":"[post]-fbe1f8d3.js","sources":["../../src/pages/blog/[post].svelte"],"sourcesContent":["<script>\n  export let post\n\n  console.log(post)\n</script>\n\n<h2>hello post</h2>\n"],"names":["post","console","log"],"mappings":"wNACaA,YAEXC,QAAQC,IAAIF"}

@@ -537,6 +537,13 @@ function attr_dev(node, attribute, value) {
     else
         dispatch_dev("SvelteDOMSetAttribute", { node, attribute, value });
 }
+function set_data_dev(text, data) {
+    data = '' + data;
+    if (text.wholeText === data)
+        return;
+    dispatch_dev("SvelteDOMSetData", { node: text, data });
+    text.data = data;
+}
 function validate_each_argument(arg) {
     if (typeof arg !== 'string' && !(arg && typeof arg === 'object' && 'length' in arg)) {
         let msg = '{#each} only iterates over array-like objects.';
@@ -1144,6 +1151,23 @@ class Prefetcher extends SvelteComponentDev {
 function getRoutifyContext() {
   return getContext('routify') || rootContext
 }
+
+/**
+ * @typedef {function():void} ReadyHelper
+ * @typedef {import('svelte/store').Readable<ReadyHelper>} ReadyHelperStore
+ * @type {ReadyHelperStore}
+*/
+const ready = {
+  subscribe(run) {
+    window['routify'].stopAutoReady = true;
+    async function ready() {
+      await tick();
+      await onAppLoaded({ path: get_store_value(route).path, metatags });
+    }
+    run(ready);
+    return () => { }
+  }
+};
 
 /**
  * @callback AfterPageLoadHelper
@@ -3087,7 +3111,7 @@ const _tree = {
       },
       "path": "/",
       "id": "__layout",
-      "component": () => import('./_layout-3301702e.js').then(m => m.default)
+      "component": () => import('./_layout-4b2baef5.js').then(m => m.default)
     },
     {
       "isFile": true,
@@ -3114,7 +3138,7 @@ const _tree = {
       },
       "path": "/about",
       "id": "_about",
-      "component": () => import('./about-46059586.js').then(m => m.default)
+      "component": () => import('./about-2184faae.js').then(m => m.default)
     },
     {
       "isFile": false,
@@ -3151,7 +3175,7 @@ const _tree = {
           },
           "path": "/blog/:post",
           "id": "_blog__post",
-          "component": () => import('./[post]-3de61d44.js').then(m => m.default)
+          "component": () => import('./[post]-cecb37b5.js').then(m => m.default)
         },
         {
           "isFile": true,
@@ -3178,7 +3202,7 @@ const _tree = {
           },
           "path": "/blog/index",
           "id": "_blog_index",
-          "component": () => import('./index-ffcf1c33.js').then(m => m.default)
+          "component": () => import('./index-fb420bfd.js').then(m => m.default)
         }
       ],
       "isLayout": false,
@@ -3221,7 +3245,7 @@ const _tree = {
       },
       "path": "/index",
       "id": "_index",
-      "component": () => import('./index-dbe99cb6.js').then(m => m.default)
+      "component": () => import('./index-6426c1bf.js').then(m => m.default)
     }
   ],
   "isLayout": false,
@@ -3319,5 +3343,5 @@ const app = new App({
 	}
 });
 
-export { SvelteComponentDev as S, space as a, add_location as b, create_slot as c, dispatch_dev as d, element as e, insert_dev as f, transition_out as g, detach_dev as h, init as i, globals as j, validate_store as k, component_subscribe as l, url as m, noop as n, text as o, attr_dev as p, append_dev as q, app as r, safe_not_equal as s, transition_in as t, update_slot as u, validate_slots as v };
-//# sourceMappingURL=main-b65d6987.js.map
+export { SvelteComponentDev as S, space as a, add_location as b, create_slot as c, dispatch_dev as d, element as e, insert_dev as f, transition_out as g, detach_dev as h, init as i, globals as j, validate_store as k, component_subscribe as l, text as m, noop as n, append_dev as o, set_data_dev as p, url as q, ready as r, safe_not_equal as s, transition_in as t, update_slot as u, validate_slots as v, attr_dev as w, app as x };
+//# sourceMappingURL=main-8ded3f9f.js.map
