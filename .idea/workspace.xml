@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b04dcc1-d028-4465-a065-6b25c90f5168" name="Default Changelist" comment="single build is false">
-      <change afterPath="$PROJECT_DIR$/scripts/buildAndPush.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bundle/main-bb0d3ee6.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/bundle/main-bb0d3ee6.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/push-process.sh" beforeDir="false" />
-    </list>
+    <list default="true" id="5b04dcc1-d028-4465-a065-6b25c90f5168" name="Default Changelist" comment="single build is false" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,11 +19,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scripts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scripts" />
       <recent name="$PROJECT_DIR$/src/pages/hello" />
@@ -43,7 +40,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602224235964</updated>
-      <workItem from="1602224236984" duration="6646000" />
+      <workItem from="1602224236984" duration="7125000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1602226239402</created>
