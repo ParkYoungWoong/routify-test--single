@@ -39,7 +39,7 @@ export default {
 	},
 	plugins: [
 		routify({
-			singleBuild: production,
+			// singleBuild: production,
 			dynamicImports: true
 		}),
 		cleaner({
